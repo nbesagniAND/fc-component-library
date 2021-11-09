@@ -19,12 +19,20 @@ export interface ButtonProps  {
    * Button contents
    */
   label: string;
+   /**
+   * Disables the Button, preventing mouse events,
+   */
+  disabled?: boolean;
+  /**
+   * Link address
+   */
+  href: string;
   /**
    * Optional click handler
    */
-  onClick?: (
-    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
-  ) => void;
+  // onClick?: (
+  //   event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  // ) => void;
 };
 
 /**
@@ -34,23 +42,25 @@ const Button = ({
   primary = true,
   backgroundColor,
   size = "medium",
-  onClick,
   label,
+  // onClick,
+  href = "javascript:void(0);"
 }: ButtonProps) => {
   const mode = primary
     ? "button--primary"
     : "button--secondary";
   return (
-    <button
+    <a
       type="button"
       className={["button", `button--${size}`, mode].join(
         " "
       )}
       style={backgroundColor ? { backgroundColor }: {}}
-      onClick={onClick}
+      // onClick={onClick}
+      href={href}
     >
       {label}
-    </button>
+    </a>
   );
 };
 

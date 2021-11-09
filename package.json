@@ -11,6 +11,7 @@
     "@babel/core": "^7.15.5",
     "@rollup/plugin-commonjs": "^21.0.0",
     "@rollup/plugin-node-resolve": "^13.0.5",
+    "@storybook/addon-a11y": "^6.3.12",
     "@storybook/addon-actions": "^6.3.9",
     "@storybook/addon-essentials": "^6.3.9",
     "@storybook/addon-links": "^6.3.9",
