@@ -25,7 +25,7 @@ $--button-font-medium : map-deep-get($tokens, font, desktop, buttons, b2, value)
       &:hover {
         background-color: $--button-color-hover;
       }
-      &:focus {
+      &:focus-visible {
         outline: 4px solid $--button-color-focus;
       }
       &:active {
