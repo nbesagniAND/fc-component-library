@@ -1,0 +1,688 @@
+$tokens: (
+  color: (
+    primary-colours: (
+      brand-purple: (
+        50: (
+          description: null,
+          type: color,
+          value: #f9f1faff
+        ),
+        100: (
+          description: null,
+          type: color,
+          value: #e8c9ebff
+        ),
+        200: (
+          description: null,
+          type: color,
+          value: #d6a6dbff
+        ),
+        300: (
+          description: null,
+          type: color,
+          value: #c082c1ff
+        ),
+        400: (
+          description: null,
+          type: color,
+          value: #a95ba6ff
+        ),
+        500: (
+          description: null,
+          type: color,
+          value: #8f448aff
+        ),
+        600: (
+          description: null,
+          type: color,
+          value: #75227dff
+        )
+      ),
+      accent-orange: (
+        50: (
+          description: null,
+          type: color,
+          value: #fffaf8ff
+        ),
+        100: (
+          description: null,
+          type: color,
+          value: #fff2ecff
+        ),
+        200: (
+          description: null,
+          type: color,
+          value: #ffd2bcff
+        ),
+        300: (
+          description: null,
+          type: color,
+          value: #ffbb99ff
+        ),
+        400: (
+          description: null,
+          type: color,
+          value: #fea274ff
+        ),
+        500: (
+          description: null,
+          type: color,
+          value: #ff6b00ff
+        ),
+        600: (
+          description: null,
+          type: color,
+          value: #fc4e1eff
+        )
+      )
+    ),
+    secondary-colours: (
+      success-green: (
+        50: (
+          description: null,
+          type: color,
+          value: #f9fffcff
+        ),
+        100: (
+          description: null,
+          type: color,
+          value: #eafff5ff
+        ),
+        200: (
+          description: null,
+          type: color,
+          value: #b5edd2ff
+        ),
+        300: (
+          description: null,
+          type: color,
+          value: #93e3bdff
+        ),
+        400: (
+          description: null,
+          type: color,
+          value: #70d8a6ff
+        ),
+        500: (
+          description: null,
+          type: color,
+          value: #34b576ff
+        ),
+        600: (
+          description: null,
+          type: color,
+          value: #0f884dff
+        )
+      ),
+      alert-red: (
+        50: (
+          description: null,
+          type: color,
+          value: #fffafbff
+        ),
+        100: (
+          description: null,
+          type: color,
+          value: #fff2f4ff
+        ),
+        200: (
+          description: null,
+          type: color,
+          value: #ffc2c9ff
+        ),
+        300: (
+          description: null,
+          type: color,
+          value: #ffa4aeff
+        ),
+        400: (
+          description: null,
+          type: color,
+          value: #ff8592ff
+        ),
+        500: (
+          description: null,
+          type: color,
+          value: #e82037ff
+        ),
+        600: (
+          description: null,
+          type: color,
+          value: #ce1025ff
+        )
+      ),
+      attention-yellow: (
+        50: (
+          description: null,
+          type: color,
+          value: #fffef0ff
+        ),
+        100: (
+          description: null,
+          type: color,
+          value: #fffbc2ff
+        ),
+        200: (
+          description: null,
+          type: color,
+          value: #fbf38dff
+        ),
+        300: (
+          description: null,
+          type: color,
+          value: #fcf08eff
+        ),
+        400: (
+          description: null,
+          type: color,
+          value: #fbeb8dff
+        ),
+        500: (
+          description: null,
+          type: color,
+          value: #fde132ff
+        ),
+        600: (
+          description: null,
+          type: color,
+          value: #ffcd00ff
+        )
+      ),
+      action-blue: (
+        50: (
+          description: null,
+          type: color,
+          value: #f9fdffff
+        ),
+        100: (
+          description: null,
+          type: color,
+          value: #eef9ffff
+        ),
+        200: (
+          description: null,
+          type: color,
+          value: #bce5f8ff
+        ),
+        300: (
+          description: null,
+          type: color,
+          value: #97d6f4ff
+        ),
+        400: (
+          description: null,
+          type: color,
+          value: #6fc5eeff
+        ),
+        500: (
+          description: null,
+          type: color,
+          value: #009bdeff
+        ),
+        600: (
+          description: null,
+          type: color,
+          value: #028dd0ff
+        )
+      )
+    ),
+    neutral-colours: (
+      slate-grey: (
+        0: (
+          description: null,
+          type: color,
+          value: #ffffffff
+        ),
+        50: (
+          description: null,
+          type: color,
+          value: #f7f8feff
+        ),
+        100: (
+          description: null,
+          type: color,
+          value: #eff0f5ff
+        ),
+        200: (
+          description: null,
+          type: color,
+          value: #c9cbd9ff
+        ),
+        300: (
+          description: null,
+          type: color,
+          value: #9396a7ff
+        ),
+        400: (
+          description: null,
+          type: color,
+          value: #737480ff
+        ),
+        500: (
+          description: null,
+          type: color,
+          value: #424554ff
+        ),
+        600: (
+          description: null,
+          type: color,
+          value: #262838ff
+        )
+      )
+    )
+  ),
+  font: (
+    desktop: (
+      headings: (
+        h1: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 56,
+            textDecoration: none,
+            fontFamily: "AmsiProCond-Black",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 60,
+            paragraphIndent: 0,
+            paragraphSpacing: 56,
+            textCase: uppercase
+          )
+        ),
+        h2: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 40,
+            textDecoration: none,
+            fontFamily: "AmsiProCond-Black",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 44,
+            paragraphIndent: 0,
+            paragraphSpacing: 44,
+            textCase: uppercase
+          )
+        ),
+        h5: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 16,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 700,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 26,
+            paragraphIndent: 0,
+            paragraphSpacing: 26,
+            textCase: none
+          )
+        )
+      ),
+      body: (
+        p1: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 16,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 26,
+            paragraphIndent: 0,
+            paragraphSpacing: 26,
+            textCase: none
+          )
+        ),
+        p2: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 14,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 22,
+            paragraphIndent: 0,
+            paragraphSpacing: 22,
+            textCase: none
+          )
+        ),
+        p3: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 12,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 16,
+            paragraphIndent: 0,
+            paragraphSpacing: 16,
+            textCase: none
+          )
+        ),
+        quote: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 18,
+            textDecoration: none,
+            fontFamily: "Amasis MT Std",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 32,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        )
+      ),
+      buttons: (
+        b1: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 20,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 500,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 24,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        ),
+        b2: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 16,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 500,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 24,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        ),
+        link-1: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 20,
+            textDecoration: underline,
+            fontFamily: "Roboto",
+            fontWeight: 500,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 24,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        ),
+        link-2: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 16,
+            textDecoration: underline,
+            fontFamily: "Roboto",
+            fontWeight: 500,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 24,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        )
+      ),
+      navigation: (
+        n1: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 20,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 500,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 25,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        ),
+        n2: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 16,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 500,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 24,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        ),
+        n3: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 12,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 500,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 18,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        )
+      )
+    ),
+    mobile: (
+      headings: (
+        h1: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 48,
+            textDecoration: none,
+            fontFamily: "AmsiProCond-Black",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 50,
+            paragraphIndent: 0,
+            paragraphSpacing: 50,
+            textCase: uppercase
+          )
+        ),
+        h2: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 32,
+            textDecoration: none,
+            fontFamily: "AmsiProCond-Black",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 34,
+            paragraphIndent: 0,
+            paragraphSpacing: 34,
+            textCase: uppercase
+          )
+        ),
+        h5: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 16,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 700,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 26,
+            paragraphIndent: 0,
+            paragraphSpacing: 26,
+            textCase: none
+          )
+        )
+      ),
+      body: (
+        p1: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 16,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 24,
+            paragraphIndent: 0,
+            paragraphSpacing: 24,
+            textCase: none
+          )
+        ),
+        p2: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 16,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 24,
+            paragraphIndent: 0,
+            paragraphSpacing: 24,
+            textCase: none
+          )
+        ),
+        p3: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 12,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 16,
+            paragraphIndent: 0,
+            paragraphSpacing: 16,
+            textCase: none
+          )
+        ),
+        quote: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 18,
+            textDecoration: none,
+            fontFamily: "Amasis MT Std",
+            fontWeight: 400,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 32,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        )
+      ),
+      navigation: (
+        n2: (
+          type: custom-fontStyle,
+          value: (
+            fontSize: 16,
+            textDecoration: none,
+            fontFamily: "Roboto",
+            fontWeight: 500,
+            fontStyle: normal,
+            fontStretch: normal,
+            letterSpacing: 0,
+            lineHeight: 24,
+            paragraphIndent: 0,
+            paragraphSpacing: 0,
+            textCase: none
+          )
+        )
+      )
+    )
+  ),
+  effect: (
+    buttons: (
+      hover: (
+        description: null,
+        type: custom-shadow,
+        value: (
+          shadowType: dropShadow,
+          radius: 0,
+          color: #26283840,
+          offsetX: 4,
+          offsetY: 4,
+          spread: 0
+        )
+      ),
+      pressed: (
+        secondary: (
+          description: null,
+          type: custom-shadow,
+          value: (
+            shadowType: innerShadow,
+            radius: 0,
+            color: #26283826,
+            offsetX: 5,
+            offsetY: 5,
+            spread: 0
+          )
+        ),
+        primary: (
+          description: null,
+          type: custom-shadow,
+          value: (
+            shadowType: innerShadow,
+            radius: 0,
+            color: #26283826,
+            offsetX: 4,
+            offsetY: 4,
+            spread: 0
+          )
+        )
+      )
+    )
+  )
+);

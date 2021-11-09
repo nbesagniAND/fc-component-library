@@ -14,10 +14,18 @@
     "@storybook/addon-actions": "^6.3.9",
     "@storybook/addon-essentials": "^6.3.9",
     "@storybook/addon-links": "^6.3.9",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.3.9",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.2",
     "@types/react": "^17.0.27",
     "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
     "eslint": "^8.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.3.1",
     "postcss": "^8.3.9",
     "prettier": "^2.4.1",
     "react": "^17.0.2",
@@ -26,17 +34,22 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.1",
     "rollup-plugin-typescript2": "^0.30.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "ts-jest": "^27.0.7",
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "dependencies": {},
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "files": [
     "/lib"
